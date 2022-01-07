@@ -62,10 +62,16 @@
         }
 
         .location-img {
-            width: 25vw;
+            width: 20vw;
             height: auto;
             flex-direction: row;
             justify-content: space-between;
+        }
+
+        #location {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         figcaption {
@@ -73,10 +79,17 @@
         }
 
         .car-img {
-            width: 25vw;
+            width: 20vw;
             height: auto;
             flex-direction: row;
             justify-content: space-between;
+            padding: 1.5vw;
+        }
+
+        #cars {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     </style>
 </head>
@@ -103,38 +116,44 @@
 
     <div class="section" id="to-visit">
         <h1>Favourite places to visit</h1>
-        <figure>
-            <img class="location-img" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg">
-            <figcaption>Paris</figcaption>
-        </figure>
-        <figure>
-            <img class="location-img" src ="https://a.cdn-hotels.com/gdcs/production28/d573/fb475e80-8f0f-11e8-a0da-0242ac11004d.jpg">
-            <figcaption>Manchester</figcaption>
-        </figure>
-        <figure>
-            <img class="location-img" src ="https://www.fodors.com/wp-content/uploads/2020/01/UltimateNorway__HERO_iStock-1127199612.jpg">
-            <figcaption>Norway</figcaption>
-        </figure>
-        <figure>
-            <img class="location-img" src = "https://s3.amazonaws.com/files.gofox.com/wp-content/uploads/2020/01/Dubai.jpg">
-            <figcaption>Dubai</figcaption>
-        </figure>
-        <figure>
-            <img class="location-img" src = "https://www.state.gov/wp-content/uploads/2018/11/Belgium-2560x1300.jpg">
-            <figcaption>Belgieum</figcaption>
-        </figure>
-        <figure>
-            <img class="location-img" src = "https://www.fodors.com/wp-content/uploads/2021/07/UltimateMadrid__HERO_shutterstock_374325199.jpg">
-            <figcaption>Mardrid</figcaption>
-        </figure>
+        <div id="location">
+            <figure>
+                <img class="location-img" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg">
+                <figcaption>Paris</figcaption>
+            </figure>
+            <figure>
+                <img class="location-img" src ="https://a.cdn-hotels.com/gdcs/production28/d573/fb475e80-8f0f-11e8-a0da-0242ac11004d.jpg">
+                <figcaption>Manchester</figcaption>
+            </figure>
+            <figure>
+                <img class="location-img" src ="https://www.fodors.com/wp-content/uploads/2020/01/UltimateNorway__HERO_iStock-1127199612.jpg">
+                <figcaption>Norway</figcaption>
+            </figure>
+            <figure>
+                <img class="location-img" src = "https://s3.amazonaws.com/files.gofox.com/wp-content/uploads/2020/01/Dubai.jpg">
+                <figcaption>Dubai</figcaption>
+            </figure>
+            <figure>
+                <img class="location-img" src = "https://www.state.gov/wp-content/uploads/2018/11/Belgium-2560x1300.jpg">
+                <figcaption>Belgieum</figcaption>
+            </figure>
+            <figure>
+                <img class="location-img" src = "https://www.fodors.com/wp-content/uploads/2021/07/UltimateMadrid__HERO_shutterstock_374325199.jpg">
+                <figcaption>Mardrid</figcaption>
+            </figure>
+        </div>
+        
     </div>
 
     <div class="section" id="fav-cars">
         <h1>Favourites Cars</h1>
-        <img class="car-img" src="https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-        <img class="car-img" src="https://car-images.bauersecure.com/pagefiles/88574/best_sportscar_514.jpg">
-        <img class="car-img" src=" https://i.ytimg.com/vi/DRu-BC9pqWw/maxresdefault.jpg">
-        <img class="car-img" src="https://car-images.bauersecure.com/pagefiles/88574/best_sportscar_506.jpg">  
+        <div id="cars">
+            <img class="car-img" src="https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <img class="car-img" src="https://car-images.bauersecure.com/pagefiles/88574/best_sportscar_514.jpg">
+            <img class="car-img" src=" https://i.ytimg.com/vi/DRu-BC9pqWw/maxresdefault.jpg">
+            <img class="car-img" src="https://car-images.bauersecure.com/pagefiles/88574/best_sportscar_506.jpg">
+        </div>
+          
     </div>
     
     <div class="section" id="have-lived"> 
